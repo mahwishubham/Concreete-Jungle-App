@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="41.641">
+<testcase classname="Add Tour" name="add valid tour" time="3.89">
+<system-out><![CDATA[Given I am at the add tours page............................................passed
+When I select 1 for day.....................................................passed
+And I select 1 2 3 for three valid options..................................passed
+And I type in a valid price of "12.25"......................................passed
+And I type in a valid title of "mytour".....................................passed
+And I click on the add tour button in add tours.............................passed
+And I accept the alert......................................................passed
+Then I should be redirected to mytours.html.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Tour" name="add valid tour 2" time="3.205">
+<system-out><![CDATA[Given I am at the add tours page............................................passed
+When I select 2 for day.....................................................passed
+And I select 2 3 1 for three valid options..................................passed
+And I type in a valid price of "15".........................................passed
+And I type in a valid title of "mytour".....................................passed
+And I click on the add tour button in add tours.............................passed
+And I accept the alert......................................................passed
+Then I should be redirected to mytours.html.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Tour" name="add valid tour 3" time="2.986">
+<system-out><![CDATA[Given I am at the add tours page............................................passed
+When I select 3 for day.....................................................passed
+And I select 3 4 2 for three valid options..................................passed
+And I type in a valid price of "38.7".......................................passed
+And I type in a valid title of "mytour".....................................passed
+And I click on the add tour button in add tours.............................passed
+And I accept the alert......................................................passed
+Then I should be redirected to mytours.html.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Tour" name="add valid tour 4" time="3.413">
+<system-out><![CDATA[Given I am at the add tours page............................................passed
+When I select 4 for day.....................................................passed
+And I select 4 5 6 for three valid options..................................passed
+And I type in a valid price of "32.20"......................................passed
+And I type in a valid title of "mytour".....................................passed
+And I click on the add tour button in add tours.............................passed
+And I accept the alert......................................................passed
+Then I should be redirected to mytours.html.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Tour" name="add valid tour 5" time="3.103">
+<system-out><![CDATA[Given I am at the add tours page............................................passed
+When I select 5 for day.....................................................passed
+And I select 5 6 4 for three valid options..................................passed
+And I type in a valid price of "99".........................................passed
+And I type in a valid title of "mytour".....................................passed
+And I click on the add tour button in add tours.............................passed
+And I accept the alert......................................................passed
+Then I should be redirected to mytours.html.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Tour" name="add valid tour 6" time="3.245">
+<system-out><![CDATA[Given I am at the add tours page............................................passed
+When I select 6 for day.....................................................passed
+And I select 6 7 5 for three valid options..................................passed
+And I type in a valid price of "99.99"......................................passed
+And I type in a valid title of "mytour".....................................passed
+And I click on the add tour button in add tours.............................passed
+And I accept the alert......................................................passed
+Then I should be redirected to mytours.html.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Tour" name="add valid tour 7" time="2.877">
+<system-out><![CDATA[Given I am at the add tours page............................................passed
+When I select 6 for day.....................................................passed
+And I select 9 10 8 for three valid options.................................passed
+And I type in a valid price of "58.25"......................................passed
+And I type in a valid title of "mytour".....................................passed
+And I click on the add tour button in add tours.............................passed
+And I accept the alert......................................................passed
+Then I should be redirected to mytours.html.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Add Tour" name="add valid tour 8" time="3.109">
+<system-out><![CDATA[Given I am at the add tours page............................................passed
+When I select 5 for day.....................................................passed
+And I select 10 11 12 for three valid options...............................passed
+And I type in a valid price of "23.22"......................................passed
+And I type in a valid title of "mytour".....................................passed
+And I click on the add tour button in add tours.............................passed
+And I accept the alert......................................................passed
+Then I should be redirected to mytours.html.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
