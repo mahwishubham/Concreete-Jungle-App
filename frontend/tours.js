@@ -6,7 +6,7 @@ logoutBtn.addEventListener('click', logout);
 document.addEventListener('DOMContentLoaded', addTours);
 
 function addTours() {
-  fetch('http://ec2-34-222-20-217.us-west-2.compute.amazonaws.com:8080/tours',{
+  fetch('http://mahwish.me:5000/tours',{
     credentials:'include'
 
   })
@@ -20,7 +20,7 @@ function addTours() {
 }
 
 function logout() {
-  fetch("http://ec2-34-222-20-217.us-west-2.compute.amazonaws.com:8080/logout", {
+  fetch("http://mahwish.me:5000/logout", {
     'method': 'POST',
   })
     .then((res) => {

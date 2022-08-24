@@ -45,7 +45,7 @@ async function loginNow(){
   if(emailLogin.value != "" && passwordLogin != ""){
   
     try{
-      let res = await fetch(`http://ec2-34-222-20-217.us-west-2.compute.amazonaws.com:8080/login`, {
+      let res = await fetch(`http://mahwish.me:5000/login`, {
             method:'POST',
             credentials:'include',
             headers: {

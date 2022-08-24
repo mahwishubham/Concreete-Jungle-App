@@ -32,7 +32,7 @@ function update() {
   let act = sessionStorage.getItem("active");
 
   
-  fetch("http://ec2-34-222-20-217.us-west-2.compute.amazonaws.com:8080/tour", {
+  fetch("http://mahwish.me:5000/tour", {
     method: "PUT",
     credentials: "include",
     headers: {
@@ -62,7 +62,7 @@ function update() {
 }
 
 function logout() {
-  fetch("http://ec2-34-222-20-217.us-west-2.compute.amazonaws.com:8080/logout", {
+  fetch("http://mahwish.me:5000/logout", {
     method: "POST",
   })
     .then((res) => {

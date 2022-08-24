@@ -20,7 +20,7 @@ function loginstatus() {
 }
 
 function logout() {
-  fetch("http://ec2-34-222-20-217.us-west-2.compute.amazonaws.com:8080/logout", {
+  fetch("http://mahwish.me:5000/logout", {
     method: "POST",
   })
     .then((res) => {
@@ -38,7 +38,7 @@ function logout() {
 
 function addTours() {
   let id = localStorage.getItem("id");
-  fetch(`http://ec2-34-222-20-217.us-west-2.compute.amazonaws.com:8080/tours/${id}`)
+  fetch(`http://mahwish.me:5000/tours/${id}`)
     .then((res) => {
       return res.json();
     })
@@ -57,7 +57,7 @@ function delete_tour() {
   
   let tid = event.target.value;
   console.log(tid)
-  fetch(`http://ec2-34-222-20-217.us-west-2.compute.amazonaws.com:8080/tour/${tid}`, {
+  fetch(`http://mahwish.me:5000/tour/${tid}`, {
     method: "DELETE",
   })
     .then((res) => {

@@ -40,7 +40,7 @@ function loginstatus() {
 registrationSubmitButton.addEventListener('click', registerUser)
 async function registerUser(event) {
   event.preventDefault();
-  let res = await fetch(`http://ec2-34-222-20-217.us-west-2.compute.amazonaws.com:8080/users`, {
+  let res = await fetch(`http://mahwish.me:5000/users`, {
     method: 'POST',
     credentials: 'include',
     headers: {
