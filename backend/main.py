@@ -14,7 +14,7 @@ if __name__ == "__main__":
     app.secret_key = config['secret_key']
     app.config['SESSION_TYPE'] = 'filesystem'
 
-    CORS(app, origins=['http://ec2-35-165-134-192.us-west-2.compute.amazonaws.com', 'http://127.0.0.1:5500'],
+    CORS(app, origins=['http://mahwish.me:3000', 'http://127.0.0.1:3000', 'http://ec2-54-198-163-233.compute-1.amazonaws.com:3000', 'http://54.198.163.233:3000'],
          supports_credentials=True)
 
     Session(app)
@@ -22,6 +22,6 @@ if __name__ == "__main__":
     app.register_blueprint(uc)
     app.register_blueprint(ac)
     app.register_blueprint(tc)
-    app.run(host="0.0.0.0", port=8080, debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
 
 
